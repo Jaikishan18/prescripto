@@ -1,0 +1,47 @@
+.myappointment_sec > p:nth-child(1){
+    border-bottom: 1px solid rgb(215, 216, 218);
+    margin-top: 3rem;
+    color: rgb(75 85 99);
+    font-weight: 500;
+    font-size: 1.125rem;
+    padding-bottom: 0.75rem;
+}
+.myappointment{
+    display: flex;
+    padding: 1rem 0px;
+    border-bottom: 1px solid rgb(215, 216, 218);
+    gap: 1.5rem;
+}
+.myappointment > div:nth-child(1){
+    max-width: 9rem;
+}
+.myappointment > div:nth-child(1) img{
+   width: 100%;
+   background-color: #EAEFFF;
+}
+.myappointment > div:nth-child(2){
+    flex:1 1 0%;
+}
+.myappointment > div:nth-child(3){
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+.myappointment > div:nth-child(3) button{
+    border: 1px solid rgb(215, 216, 218);
+    min-width: 12rem;
+    background: transparent;
+    color: #696969;
+    padding: 0.5rem 0px;
+    border-radius: 0.25rem;
+}
+.myappointment > div:nth-child(3) button:nth-child(1):hover{
+    background-color: rgb(95 111 255);
+    color: #fff;
+}
+.myappointment > div:nth-child(3) button:nth-child(2):hover{
+    background-color: rgb(220 38 38);
+    color: #fff;
+}
+

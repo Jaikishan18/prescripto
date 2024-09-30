@@ -1,0 +1,43 @@
+.footer{
+    max-width: 1150px;
+    width: 100%;
+    margin: 10rem auto 0px;
+    font-family: 'outfit';
+    
+}
+.footer_one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer_one img:nth-child(1){
+    width: 10rem;
+}
+.footer_one p:nth-child(2){
+    max-width: 520px;
+    width: 100%;
+    font-size: 14px;
+}
+.footer_two p{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.footer_two ul,.footer_three ul{
+    list-style: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer_rights{
+    padding-top: 2rem;
+}
+.footer_rights > hr{
+    display: block;
+    border-top: 1px solid #e5e7eb;
+    width: 100%;
+    background-color: lightgray;
+}
+.footer_rights p{
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 1.25rem 0px;
+}

@@ -1,0 +1,46 @@
+.contact_sec > p:nth-child(1){
+    text-align: center;
+    padding-top: 2.5rem;
+}
+.contact_sec > div:nth-child(2){
+    justify-content: center;
+    margin-top: 2rem;
+}
+.contact_image img{
+    width: 100%;
+}
+.contact_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    height: 100%;
+}
+.contact_content b:nth-child(1){
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(75 85 99);
+}
+.contact_content div{
+    color: rgb(107 114 128);
+    font-size: 14px;
+}
+.contact_content p:nth-child(5){
+    font-size: 14px;
+    color: rgb(107 114 128);
+}
+.contact_content button:nth-child(6){
+  max-width: max-content;
+  font-size: 0.875rem;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  transition-duration: 0.5s;
+}
+.contact_content button:nth-child(6):hover{
+  background-color: #000000;
+  color: #fff;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+
+}
